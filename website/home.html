@@ -1,0 +1,441 @@
+<!DOCTYPE HTML>
+<html lang="{{chb_language}}">
+<head>
+	<!-- ###################################################### META TAGS ####################################################### -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width" />
+	<meta name="author" content="Chiibo Creative Studio" />
+	<meta name="copyright" content="Chiibo Creative Studio Copyright (c) 2012" />
+	<meta name="description" content="{{chb_description}}">
+	
+	
+	
+	<!-- ##################################################### STYLE FILES ###################################################### -->
+	<link rel="stylesheet" type="text/css" href="libs/chb/chb_fluid.css">
+	<link rel="stylesheet" type="text/css" href="styles/global.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/home.min.css">
+	
+	<link rel="stylesheet" type="text/css" href="styles/iphone.min.css" media="screen and (max-width: 480px)" >
+	<link rel="stylesheet" type="text/css" href="styles/ipad.min.css" media="screen and (min-width: 481px) and (max-width: 786px)" >
+	<!--[if lt IE 8]>
+		<style> .thanks-ie7 { float: none !important; width: auto !important;  } </style>
+	<![endif]-->
+	<!--[if lt IE 8]>
+		<style> #chb-header, #chb-content, #chb-footer { display: none; } #chb-ie { display: block; } </style>
+	<![endif]-->
+	
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+	<link rel="apple-touch-icon" type="image/png" href="images/favicon-apple.png" />
+	
+	<!-- ##################################################### SCRIPT FILES ##################################################### -->
+	<script type="text/javascript" src="libs/jquery/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="libs/chb/vape.min.js"></script>
+	<script type="text/javascript" src="scripts/global.min.js"></script>
+	
+	<script type="text/javascript" src="//use.typekit.net/fhf3gph.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	
+
+	<title>Chiibo Creative Studio</title>
+</head>
+
+<body id="chb-top">
+
+	<div id="chb-ie" class="chb-grid">
+		<div class="chb-column twelve">
+			<img class="chb-img two chb-center" src="images/logo-large.png" alt="Chiibo Creative Studio" />
+			<h2>{{chb_ie_error}}</h2>
+		</div>
+	</div>
+
+	<!--######################################################################################################################################################
+		CHIIBO HEADER
+	#######################################################################################################################################################-->
+	<div id="chb-header">
+		
+		<!--######################################################################################################################################################
+			CHIIBO CONTACT
+		#######################################################################################################################################################-->
+		<div id="chb-contact" class="chb-section">
+			<div class="chb-wrapper">
+				<div class="chb-grid">
+					<h2>{{chb_contact_title}}</h2>
+					<div class="chb-section-tag">
+						<h4 class="chb-center">
+							{{chb_contact_description}}
+						</h4>
+					</div>
+					
+					<form id="chb-contact-form" method="post" name="contact-data">
+						<div class="chb-column seven">
+							<textarea id="contact-message" name="user_message" data-value="{{chb_contact_message_input}}">{{chb_contact_message_input}}</textarea>
+						</div>
+						
+						<div class="chb-column five thanks-ie7">
+							<div class="chb-input">
+								<img src="images/ctn-name.png" alt="name" />
+								<input id="contact-name" name="user_name" data-value="{{chb_contact_name_input}}" type="text" value="{{chb_contact_name_input}}" />
+							</div>
+						
+							<div class="chb-input">
+								<img src="images/ctn-msg.png" alt="email" />
+								<input id="contact-email" name="user_email" data-value="{{chb_contact_email_input}}" type="text" value="{{chb_contact_email_input}}" />
+							</div>
+						
+							<div class="chb-input">
+								<input id="contact-hello" name="user_hello" type="text" value="chiibo hello world" />
+							</div>
+						
+							<div class="chb-btn">
+								<input id="post-ctn-form-btn" type="submit" value="{{chb_contact_send_btn}}"/>
+								<span></span>
+							</div>
+						</div>
+					</form>
+					
+					<div class="chb-grid">
+						<div class="chb-column twelve">
+							<div class="contact-error" id="contact-error-fields">
+								<p class="chb-center">{{chb_contact_error_fields}}</p>
+								<span></span>
+							</div>
+							
+							<div class="contact-error" id="contact-error-email">
+								<p class="chb-center">{{chb_contact_error_email}}</p>
+								<span></span>
+							</div>
+							
+							<div class="contact-success" id="contact-success">
+								<p class="chb-center">{{chb_contact_success}}</p>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					
+					<img class="gun-bottom" src="images/gun-top-bubbles.png" alt="Gun Top Bubbles" />
+				</div>
+			</div>
+		</div>
+		
+		
+		<!--######################################################################################################################################################
+			CHIIBO TOPBAR
+		#######################################################################################################################################################-->
+		<div id="chb-topbar" class="chb-section">
+			<div class="chb-wrapper">
+				<div class="chb-grid">
+					<div class="chb-column three">
+						<a id="chb-logo" href="#"><img class="chb-center" src="images/logo-small.png" alt="Chiibo Creative Studio" /></a>
+					</div>
+		
+					
+					<div class="chb-column eight">
+						<ul id="chb-navbar">
+							<li><a href="#chb-specialties">{{chb_navbar_specialties}}</a></li>
+							<li><a href="#chb-process">{{chb_navbar_process}}</a></li>
+							<li><a href="#chb-team">{{chb_navbar_team}}</a></li>
+							<li><a href="#chb-footer">{{chb_navbar_footer}}</a></li>
+						</ul>
+					</div>
+					
+					<div class="chb-column one thanks-ie7"></div>
+					<button id="contact-btn" data-closed="{{chb_topbar_contact_btn_closed}}" data-opened="{{chb_topbar_contact_btn_opened}}"  class="{{chb_topbar_contact_state}}">{{chb_topbar_contact_btn}}</button>
+					<button id="back-top-btn">{{chb_topbar_backtop_btn}}</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	<!--######################################################################################################################################################
+		CHIIBO CONTENT
+	#######################################################################################################################################################-->
+	<div id="chb-content">
+	
+		<!--######################################################################################################################################################
+			CHIIBO INTRO
+		#######################################################################################################################################################-->
+	
+			<div id="chb-intro" class="chb-section">
+					<div class="chb-grid">
+						<div id="chb-intro-text" class="chb-column twelve chb-center">
+							<h1 class="chb-center">{{chb_intro_description}}</h1>
+						</div>
+				</div>
+			</div>
+		
+		
+		<div id="chb-projects" class="chb-grid">
+			<a href="/" target="_blank">
+				<div class="chb-column four project-title">
+					<img src="images/project.png" alt="project" width="330" height="207">
+					<h3>Project #3 title</h3>
+				</div>
+			</a>
+					
+			<div class="chb-column four project-title">
+				<a href="/" target="_blank">
+					<img src="images/project.png" alt="project" width="330" height="207">
+					<h3>Project #1 title</h3>
+				</a>
+			</div>
+					
+			<div class="chb-column four project-title">
+				<a href="/" target="_blank">
+					<img src="images/project.png" alt="project" width="330" height="207">
+					<h3>Project #2 title</h3>
+				</a>
+			</div>
+					
+		</div>
+		
+		
+		<!--######################################################################################################################################################
+		CHIIBO WORKS
+		#######################################################################################################################################################-->
+		<div id="chb-works" class="chb-section">
+		</div>
+		
+		
+		<!--######################################################################################################################################################
+			CHIIBO SPECIALTIES
+		#######################################################################################################################################################-->
+		<div id="chb-specialties" class="chb-section">
+			
+			<div class="chb-grid">
+				<img class="chb-hseparator" src="images/h-separator.png" alt="-----"/>
+				
+				<div class="chb-grid">
+				
+					<div class="chb-column eight">
+						<div class="chb-section-tag">
+							<h1 class="chb-center">{{chb_specialties_tagline_one}}</h1>
+						</div>
+						<h2>	
+							<img class="chb-img one chb-left" src="images/web-dev.png" alt="Web Development" />
+							{{chb_specialties_web_title}}
+						</h2>
+						<div class="arrow_box">
+							<p class="chb-center">{{chb_specialties_web_description}}</p>
+						</div>	
+					</div>	
+					
+					
+					<div class="chb-column four">
+						<img class="chb-img three chb-center chb-relative" src="images/mobile-apps.png" alt="Mobile Apps" />
+						<h2>{{chb_specialties_apps_title}}</h2>
+						<div class="arrow_box">
+							<p class="chb-center">
+								{{chb_specialties_apps_description}}
+							</p>
+						</div>
+						
+					</div>
+				</div>
+				
+				
+				
+				<div class="chb-grid">
+				
+					<div class="chb-column four">
+					
+								<img class="chb-img three chb-center chb-relative" src="images/rapid-prototype.png" alt="Rapid Prototyping" />
+						<h2>{{chb_specialties_prototype_title}}</h2>
+						<div class="arrow_box">
+							<p class="chb-center">
+								{{chb_specialties_prototype_description}}
+							</p>
+						</div>
+					
+					
+					
+					
+					
+					
+					</div>
+					
+					<div class="chb-column eight">
+					
+						<div class="chb-section-tag">
+							<h1 class="chb-center">{{chb_specialties_tagline_two}}</h1>
+						</div>	
+						
+						
+						<h2>
+							<img class="chb-img one chb-right" src="images/graphic-design.png" alt="Graphic Design" />
+							{{chb_specialties_design_title}}
+						</h2>
+						<div class="arrow_box">
+							<p class="chb-center">
+								{{chb_specialties_design_description}}
+							</p>
+						</div>
+					</div>
+			
+				</div>
+			
+			
+			
+			
+				
+				<div class="chb-grid">
+			
+					
+					<div class="chb-column eight">
+						<div class="chb-section-tag">
+							<h1 class="chb-center">{{chb_specialties_tagline_three}}</h1>
+						</div>
+						<h2>						
+							<img class="chb-img one chb-left" src="images/project-deployment.png" alt="Project Deployment" />
+							{{chb_specialties_deployment_title}}
+						</h2>
+						<div class="arrow_box">						
+							<p class="chb-center">
+								{{chb_specialties_deployment_description}}
+							</p>
+						</div>
+					</div>
+					
+					
+					<div class="chb-column four">
+						<img class="chb-img three chb-center chb-relative" src="images/revamp-services.png" alt="Revamping Services" />
+						<h2>{{chb_specialties_revamp_title}}</h2>
+						<div class="arrow_box">
+							<p class="chb-center">
+								{{chb_specialties_revamp_description}}
+							</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+		
+		<!--######################################################################################################################################################
+			CHIIBO PROCESS
+		#######################################################################################################################################################-->
+			
+		
+		
+		
+		
+		
+		<!--######################################################################################################################################################
+			CHIIBO TEAM
+		#######################################################################################################################################################-->
+		<div id="chb-team" class="chb-section">
+			<div class="chb-grid">
+				<img class="chb-hseparator" src="images/h-separator.png" alt="-----"/>
+				<div class="chb-section-tag">
+					<h2 class="chb-center">{{chb_team_tagline}}</h2>
+				</div>
+				
+				<div class="chb-column four">
+					
+					<div class="chb-grid">
+						<div class="chb-column twelve team-image">
+							<div class="chb-circle chb-blue"></div>
+							<img class="chb-center chb-relative" src="images/devin.png" alt="Devin Stallings" />
+						</div>
+					</div>
+					<h3>DEVIN <span>STALLINGS</span></h3>
+					<p class="chb-center">
+						{{chb_team_devin}}
+					</p>
+				</div>
+				
+				<div class="chb-column four">
+					
+					<div class="chb-grid">
+						<div class="chb-column twelve team-image">
+							<div class="chb-circle chb-green"></div>
+							<img class="chb-center chb-relative" src="images/enma.png" alt="Enma Velasquez" />
+						</div>
+					</div>
+					<h3>ENMA <span>VELASQUEZ</span></h3>
+					<p class="chb-center">
+						{{chb_team_enma}}
+					</p>
+				</div>
+
+				<div class="chb-column four thanks-ie7">
+						
+					<div class="chb-grid">
+						<div class="chb-column twelve team-image">
+							<div class="chb-circle chb-red"></div>
+							<img class="chb-center chb-relative" src="images/enrique.png" alt="Enrique Gonzalez" />
+						</div>
+					</div>
+					<h3>ENRIQUE <span>GONZALEZ</span></h3>
+					<p class="chb-center">
+						{{chb_team_enrique}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+		
+		
+	<!--######################################################################################################################################################
+		CHIIBO FOOTER
+	#######################################################################################################################################################-->
+	<div id="chb-footer">
+		<div class="chb-grid">
+			<div class="chb-column twelve">
+			
+				<h2>{{chb_footer_title}}</h2>
+				
+				<div class="chb-footer-section">
+					<h4>{{chb_footer_email_us}}</h4>
+					<a href="mailto:hello@chiibo.com"><span>HELLO@CHIIBO.COM</span></a>
+				</div>
+				
+				<div class="chb-footer-section">
+					<h4>{{chb_footer_pick_language}}</h4>
+					<a href="{{chb_footer_language_link}}"><span>{{chb_footer_language_list}}</span></a>
+				</div>
+				
+				<div id="chb-footer-social" class="chb-footer-section">
+					<h4>{{chb_footer_follow_our_feed}}</h4>
+					<div class="social-network">
+						<a target="_blank" href="http://twitter.com/@ChiiboStudio">
+							<img class="chb-center default" src="images/twitter.png" alt="Twitter" />
+							<img class="chb-center onhover" src="images/twitter-hover.png" alt="Twitter" />
+						</a>
+					</div>
+						
+					<div class="social-network">
+						<a target="_blank" href="https://www.facebook.com/ChiiboStudio">
+							<img class="chb-center default" src="images/facebook.png" alt="Facebook" />
+							<img class="chb-center onhover" src="images/facebook-hover.png" alt="Facebook" />
+						</a>
+					</div>
+						
+					<div class="social-network">
+						<a target="_blank" href="https://plus.google.com/101958892811286658597">
+							<img class="chb-center default" src="images/googlep.png" alt="Google+" />
+							<img class="chb-center onhover" src="images/googlep-hover.png" alt="Google+" />
+						</a>
+					</div>
+				</div>
+			</div>
+
+			
+			<div class="chb-grid">
+				<div id="chb-copyright" class="chb-column twelve">
+					<h3>Chiibo Creative Studio &copy; 2012</h3>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+

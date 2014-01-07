@@ -1,0 +1,33 @@
+h2{text-align:center;}
+
+p{font-size:1.3rem;}
+
+#chb-topbar .chb-column.three{width:30%;}
+
+#chb-topbar .chb-column.eight{width:70%;}
+
+#chb-specialties .chb-column{width:50%;margin-bottom:20px;}
+
+#chb-specialties .chb-grid:before,#chb-specialties .chb-grid:after{display:table;line-height:0;content:"";}
+
+#chb-specialties .chb-grid:after{clear:none;}
+
+#chb-specialties [class*=chb-column]:last-child{float:left;}
+
+#chb-process-circle{width:50%;}
+
+#chb-process .chb-process-step{display:block;float:left;width:46%;margin:2%;}
+
+#contact-btn,#back-top-btn{display:none!important;}
+
+.team-image .chb-circle{display:block;width:90%;height:90%;}
+
+#chb-navbar li a{font-size:1.2rem;}
+
+#chb-navbar li a:hover{color:#8CBCC4;}
+
+#chb-footer-social{width:75%;}
+
+#chb-intro-text,#chb-process .chb-column,.team-image img{width:100%;}
+
+#chb-intro-image,#chb-specialties .cable-right,#chb-specialties .cable-left,#chb-team .team-bubble,mark{display:none;}

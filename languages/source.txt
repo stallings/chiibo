@@ -1,0 +1,137 @@
+# -------------------------------------------------- HTML DESCRIPTION -------------------------------------------------- #
+Web Development Mobile Apps Mobile Applications Graphic Design Rapid Prototyping Charlotte El Salvador
+
+
+
+# -------------------------------------------------- CHBIIBO CONTACT -------------------------------------------------- #
+WE'D LOVE TO <span>WORK WITH YOU</span>
+
+Whether you just want to talk about the weather or you have a project in mind that needs a little Chiibo touch, we are here to listen. Don't be shy and say hi using the form below.
+
+insert greetings here
+
+name please ?
+
+email address ?
+
+Send
+
+error message
+
+
+
+# -------------------------------------------------- CHBIIBO TOPBAR -------------------------------------------------- #
+<mark>OUR</mark> <span>SPECIALTIES</span>
+
+<mark>CHIIBO</mark> <span>PROCESS</span>
+
+<mark>MEET</mark> <span><mark>THE</mark> TEAM</span>
+
+MORE <span><mark>CHIIBO</mark></span>
+
+DON'T TOUCH
+
+GO BACK
+
+TOP
+
+
+
+# -------------------------------------------------- CHBIIBO INTRO -------------------------------------------------- #
+
+We are digital crafters providing exceptional user experiences
+						
+
+images/intro-image-en.png
+
+
+
+# -------------------------------------------------- CHBIIBO SPECIALTIES -------------------------------------------------- #
+OUR <span>SPECIALTIES</span>
+
+EVERYTHING TO MAKE YOU SHINE
+
+If there is something we know is that technology and design are a business's best friends. Our services ensure that you are accessible by everyone anytime. Increase your business and increase your market share.
+
+WEB <span>DEVELOPMENT
+
+We build custom websites and web applications that are beautiful and easy to use. Best of all, they are crafted to be seen on any device; smartphones, tablets, laptops, you name it.
+
+MOBILE <span>APPS</span>
+
+Have an idea for a awesome new mobile app? We would love to bring that idea to life and help you reach to your audience. We focus our development efforts on both Android and iOS platforms.
+
+GRAPHIC <span>DESIGN</span>
+
+Everything to get your business ready, branding, packaging design, user interfaces, business cards, brochures, flyers, you get the point. Our designs are unique and simply amazing.
+
+PROJECT <span>DEPLOYMENT</span>
+
+Need a home for your project after it is complete? We will host and deploy your project. You don't need to worry about anything, just sit back, relax, and watch how your project turns to life.
+
+RAPID <span>PROTOTYPING</span>
+
+Our ability to create rapid prototypes will give you insight as to how viable your project is. Prototypes are an invaluable way of testing your market before the product even exist.
+
+REVAMPING <span>SERVICES</span>
+
+We want to build long lasting relationships with all of our clients. Once a project is complete we can maintain it for you worry-free. We can host it, update it, and take care of all the hassle.
+
+
+
+# -------------------------------------------------- CHBIIBO PROCESS -------------------------------------------------- #
+THE CHIIBO <span>PROCESS</span>
+
+SIMPLE YET EFFICIENT
+
+At Chiibo we believe in transparency of our work. You can follow our progress along the way. You will always know what part of the project we are working on and your instant feedback allows us to serve you better!
+
+WE GET INSIDE YOUR HEAD
+
+We get to know your business, we listen to your needs, and understand your clients. Our team begins researching the market to construct a blueprint with the best solution.
+
+WE HAVE A CREATIVE PARTY
+
+Our crafters get together and the design process begins. We focus on your brand, user experience, stability and efficiency. Our custom design work ensures your brand shines above the rest.
+
+WE BUILD, TEST, AND REPEAT
+
+Project construction officially begins! We work hard to ensure a successful project by getting user feedback, optimizing, and building again based on it. We like being agile.
+
+WE DELIVER AND YOU SMILE
+
+We want you to be happy with the outcome, and so we work hard to accomplish just that. When we  deliver all the work ownership is yours, no strings attached. If you are successful then so are we.
+
+
+
+# -------------------------------------------------- CHBIIBO TEAM -------------------------------------------------- #
+MEET <span>THE TEAM</span>
+
+WE WANT TO CHANGE THE WORLD
+
+At Chiibo we are building a company that thinks differently. Our goal is to solve your technical challenges  in a way that both is creative and efficient, all done with your business in mind. We love our jobs!
+
+Devin has big ideas and is a main ingredient to our formula. When he's not writing code, he's influencing user experience or making everyone laugh.
+
+Enma is the ray of sunshine in everyones day. Without her, our software would look dull. Her imagination flows into the heart of all our work.
+
+Enrique is our go-to geek. He has an innate ability to create software that works incredibly well. He makes sure all of our code is optimized to work great.
+
+
+
+# -------------------------------------------------- CHBIIBO FOOTER -------------------------------------------------- #
+CAN'T GET ENOUGH CHIIBO
+
+SHOOT US AN EMAIL
+
+PICK ANOTHER LANGUAGE
+
+http://www.chiibo.com?lang=es
+
+ESPAÑOL
+
+OR FOLLOW OUR FEED
+
+
+
+

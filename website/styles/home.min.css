@@ -1,0 +1,77 @@
+#chb-content {
+	
+	min-width: 300px;
+	width:100%;
+}
+
+
+#chb-intro .chb-grid {
+	
+	max-width: 1400px;
+	padding: 0;
+}
+
+#chb-intro-text {
+	background: url("../images/intro-image-en.png") no-repeat;
+	background-position: top right ;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 52%;
+	padding: 20% 0 25% 0;
+}
+
+#chb-intro-text h1{
+	padding: 0 30% 0 15%;
+}
+
+
+
+.team-image:hover .chb-circle { 
+	
+	display: block;
+}
+
+
+
+#chb-specialties h3 {
+	margin: 15px;
+	line-height: 1em;
+
+}
+
+
+
+
+
+#chb-intro-text p {
+	font-size: 2.8rem;
+	font-weight: 900;
+	text-shadow: #c1c1c1 0 1px 0 #000 0 -1px 0;
+}
+
+
+
+#chb-projects img{
+	border: #393939;
+	border-width: thick;
+	border-style: double;
+}
+
+
+#chb-projects .chb-column.four{
+	position: relative;
+	
+}
+
+
+#chb-projects h3{
+	position: absolute;
+	margin: -120px 0 0 6px;
+	color: #ED6035;
+	background: #89BBC2;
+	padding: 25px;
+	display: none;
+}
+
+
